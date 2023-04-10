@@ -21,6 +21,6 @@ from products import urls as products_urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api-auth/', include('rest_framework.urls')),
-    path('api/', include(products_urls)),
+    path('api-auth/',include('rest_framework.urls')),
+    path('api/',include(products_urls)),
 ]

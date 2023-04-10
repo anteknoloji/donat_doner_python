@@ -6,4 +6,4 @@ class Products(models.Model):
     ProductDesc = models.CharField(max_length = 255,null=False,default="",verbose_name="ProductDesc")
 
     def __str__(self):
-        return self.task
+        return self.ProductName
